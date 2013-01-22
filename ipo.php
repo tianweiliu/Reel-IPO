@@ -3,9 +3,12 @@
   ------------------------------------------------------------------------------------------------
   Reel IPO Server v2.0
   Main IPO function page. 
-  Used to communicate with CGT411/450 IPO page and Reel IPO database
-  Return value is a php array
-  -- By Tianwei Liu (tianwei.liu89@gmail.com)
+  Used to communicate with CGT411/450 IPO page and Reel IPO database.
+  Return value is a php array.
+  	-- By Tianwei Liu (tianwei.liu89@gmail.com)
+  
+  PHP Simple HTML DOM Parser is required to run the fuction.
+  http://simplehtmldom.sourceforge.net/
   ------------------------------------------------------------------------------------------------
   */
     function RetrieveIPO($group_id, $semester, $key, $mode) {
