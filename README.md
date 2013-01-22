@@ -5,7 +5,6 @@ Reel IPO is a stock widget that can retrieve real-time update from Purdue Univer
 
 Sample JSONP call
 =================
-<blockquote>
 `````HTML
 <div id="stock-widget"><div class="ajax-loader-white">Loading...</div></div>
 <div class="stock-ad">Powered by <a href="http://reelinteraction.com/reel-ipo/" target="_blank">Reel IPO Plus</a></div>
@@ -30,4 +29,3 @@ Sample JSONP call
     jsonp: 'jsonp'                                                                                                                                                
 });
 </script>
-</blockquote>
