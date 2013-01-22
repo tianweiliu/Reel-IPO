@@ -1,7 +1,7 @@
 <?php 
   /*
   Reel IPO JSONP Output Page
-  This page will redirect normal traffic to "admin.php", or output IPO info as JSONP if a valid post request was called.
+  This page will redirect normal traffic to "admin.php", or output IPO info as JSONP if a called by a valid post request.
     -- by Tianwei Liu (tianwei.liu89@gmail.com)
   */
   include("ipo.php");
