@@ -1,13 +1,13 @@
 <?php
   /*
-	------------------------------------------------------------------------------------------------
-	Reel IPO Server v2.0
+  ------------------------------------------------------------------------------------------------
+  Reel IPO Server v2.0
   Main IPO function page. 
   Used to communicate with CGT411/450 IPO page and Reel IPO database
   Return value is a php array
-	-- By Tianwei Liu (tianwei.liu89@gmail.com)
-	------------------------------------------------------------------------------------------------
-	*/
+  -- By Tianwei Liu (tianwei.liu89@gmail.com)
+  ------------------------------------------------------------------------------------------------
+  */
     function RetrieveIPO($group_id, $semester, $key, $mode) {
 		include("includes/simple_html_dom.php");
 		$stock = file_get_html("http://www2.tech.purdue.edu/cgt/Courses/cgt411/COGENT/".$semester."IPO_files/sheet001.htm");
