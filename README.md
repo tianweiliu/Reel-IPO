@@ -5,12 +5,12 @@ Reel IPO is a stock widget that can retrieve real-time update from Purdue Univer
 
 Sample JSONP call
 =================
- <blockquote>
- <div id="stock-widget"><div class="ajax-loader-white">Loading...</div></div>
- <div class="stock-ad">Powered by <a href="http://reelinteraction.com/reel-ipo/" target="_blank">Reel IPO Plus</a></div>
- <script type="text/javascript" src="http://www.omnipotent.net/jquery.sparkline/2.1/jquery.sparkline.js"></script>
- <script type="text/javascript">
-   jQuery.ajax({                                                                                                                                                                                                        
+<blockquote>
+<div id="stock-widget"><div class="ajax-loader-white">Loading...</div></div>
+<div class="stock-ad">Powered by <a href="http://reelinteraction.com/reel-ipo/" target="_blank">Reel IPO Plus</a></div>
+<script type="text/javascript" src="http://www.omnipotent.net/jquery.sparkline/2.1/jquery.sparkline.js"></script>
+<script type="text/javascript">
+  jQuery.ajax({                                                                                                                                                                                                        
     type: 'GET',                                                                                                                                                                                                 
     url: 'http://reelinteraction.com/stock/',
 	data: {group_id: "X3", semester:"f12", key:"28b6db7f6c62a9edeca47384a3e891a7"},                                                                                                                                              
